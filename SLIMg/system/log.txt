@@ -1,0 +1,28 @@
+> START   - [2022-06-19 15:35:56.576248]: SLIMg start
+
+> INIT    - [2022-06-19 15:35:56.577261]: Init SLIMg...
+> INIT    - [2022-06-19 15:35:56.578020]: SLIMg init succesful
+
+> REQUEST - [2022-06-19 15:35:56.579038]: Saving data (72b) to file 'system\save_1.sv'
+> SYSTEM  - [2022-06-19 15:35:56.579038]: Checking dir: 'system', dir exists=True
+> SYSTEM  - [2022-06-19 15:35:56.579038]: Checking file: 'save_1.sv', file exists=True
+> REQ_SCS - [2022-06-19 15:35:56.580025]: Data succesfully saved (72b)
+
+> REQUEST - [2022-06-19 15:35:56.581022]: Saving data (520b) to file 'saves\save_2'
+> SYSTEM  - [2022-06-19 15:35:56.582025]: Checking dir: 'saves', dir exists=True
+> SYSTEM  - [2022-06-19 15:35:56.582025]: Checking file: 'save_2', file exists=True
+> REQ_SCS - [2022-06-19 15:35:56.583023]: Data succesfully saved (520b)
+
+> REQUEST - [2022-06-19 15:35:56.584026]: Saving data (24b) to file 'system\save_3'
+> SYSTEM  - [2022-06-19 15:35:56.584026]: Checking dir: 'system', dir exists=True
+> SYSTEM  - [2022-06-19 15:35:56.585024]: Checking file: 'save_3', file exists=True
+> REQ_SCS - [2022-06-19 15:35:56.586035]: Data succesfully saved (24b)
+
+> REQUEST - [2022-06-19 15:35:56.586035]: Loading data from file 'system\save_1'
+> REQ_ERR - [2022-06-19 15:35:56.587025]: Could not load data from file 'system\save_1': FileNotFoundError
+
+> REQUEST - [2022-06-19 15:35:56.591026]: Loading data from file 'saves\save_2'
+> REQ_SCS - [2022-06-19 15:35:56.592027]: Data succesfully loaded (520b)
+
+> REQUEST - [2022-06-19 15:35:56.593026]: Loading data from file 'system\save_3'
+> REQ_SCS - [2022-06-19 15:35:56.594027]: Data succesfully loaded (24b)
